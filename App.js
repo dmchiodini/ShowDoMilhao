@@ -10,6 +10,7 @@ import PaginaPerfil from './src/pages/paginaPerfil'
 import PaginaCadastraJogador from './src/pages/paginaCadastraJogador'
 import PaginaRanking from './src/pages/paginaRanking'
 import PaginaFimDeJogo from './src/pages/paginaFimDeJogo'
+import Vitoria from './src/pages/vitoria'
 
 
 const Stack = createStackNavigator()
@@ -27,9 +28,8 @@ function App() {
         <Stack.Screen name="PaginaCadastraJodador" component={PaginaCadastraJogador} />
         <Stack.Screen name="PaginaRanking" component={PaginaRanking} />
         <Stack.Screen name="Parou" component={PaginaFimDeJogo}
-          options={{
-            title: ' ', headerTransparent: 1
-          }} />
+          options={{title: ' ', headerTransparent: 1}} />
+          <Stack.Screen name="Vitoria" component={Vitoria}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
