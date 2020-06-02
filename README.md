@@ -38,7 +38,7 @@ Execute a aplicação:
 npm start
 ```
 
-OBS: Se a aplicação iniciar com o Expo, escolha entre as opções: rodar em Android, IOS (Ler QR Code) ou browser.
+OBS: Se a aplicação iniciar com o Expo, escolha entre abrir em Android, IOS ou browser (Para rodar no celular, use o QR Code).
 <br/><br/>
 
 <h3>Status do Projeto:</h3>
@@ -50,7 +50,7 @@ Essa versão é um VPN do projeto.
 <b>React Native<b>:  https://reactnative.dev/docs/getting-started/ <br/>
 <b>Expo</b>: https://docs.expo.io/ <br/>
 <b>Babel</b>: https://babeljs.io/docs/en/
-<br/>
+<br/><br/><br/>
 
 <p>Projeto desenvolvido em grupo, no curso de Front-End Mobile da Arbyte</p>
 <br/>
